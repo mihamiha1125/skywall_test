@@ -1,0 +1,408 @@
+body {
+    margin: 0px;
+}
+  .main-title img {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 80px;
+    float: left;
+  }
+  .main-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 64px;
+    margin: 0px;
+    background-image: url(https://shuuumatu-worker.jp/mirai/wp-content/uploads/2018/03/sai-kiran-anagani-61187-unsplash-1024x683.jpg);
+    color: skyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main-half {
+    height: 350px;
+    width: 62%;
+    color: rgb(1, 80, 43);
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-family: "Kosugi Maru", sans-serif;
+    line-height: 13px;
+  }
+  .main-half2 {
+    text-align: center;
+    margin-right: 30px;
+    position: relative;
+  }
+  .main-half2 img {
+    width: 400px;
+    height: 450px;
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+  }
+  .request {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    position: relative;
+    background-color: #c7c7c6;
+  }
+  .request-half1 p {
+    font-size: 35px;
+  }
+  .request-half2 img {
+    width: 1000px;
+    height: 500px;
+  }
+  .request-half2 div.text5 {
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    font-size: 20px;
+    color: black;
+  }
+  .cartoon {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: grey;
+  }
+  .cartoon div.text {
+    position: absolute;
+    left: 140px;
+    top: 30px;
+    font-size: 23px;
+    color: #fff;
+  }
+.text h2 {
+  color: #4dffff;
+}
+.cartoon1 a {
+  left: 1050px;
+    top: 500px;
+    font-size: 17px;
+    color: aqua;
+}
+  .cartoon p {
+    position: absolute;
+    left: 1050px;
+    /* right: ; */
+    top: 430px;
+    font-size: 25px;
+    color: aqua;
+  }
+  .cartoon img {
+    width: 800px;
+    height: 680px;
+  }
+  .cartoon2 {
+    margin-top: 0px;
+
+    color: #ffe0e5;
+    font-size: 40px;
+  }
+  .fooder {
+    background-color: #fbdee3;
+  }
+  .fooder h3 {
+    text-align: center;
+    margin: 0px;
+  }
+  @media only screen and (max-width: 414px) {
+    .main-title img {
+      width: 50px;
+      height: 50px;
+      border-style: solid;
+      border-width: 5px;
+      border-color: aqua;
+      border-radius: 80px;
+      float: left;
+    }
+    .main-title {
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      padding-top: 20px;
+      padding-bottom: 64px;
+      margin: 0px;
+      background-image: url(https://shuuumatu-worker.jp/mirai/wp-content/uploads/2018/03/sai-kiran-anagani-61187-unsplash-1024x683.jpg);
+      color: skyblue;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .main {
+      display: flex;
+      flex-flow: column;
+    }
+    .main-half {
+      width: 100%;
+      color: rgb(1, 80, 43);
+      padding-top: 0px;
+      margin-top: 0px;
+      text-align: center;
+      font-family: "Kosugi Maru", sans-serif;
+      margin: 10px 0px;
+      font-size: 18.8px;
+      line-height: 20px;
+    }
+    .p1 {
+    font-size: 18.5px;
+    }
+    .p2 {
+    font-size: 19.5px;
+  }
+    .p3 {
+    font-size: 18.5px;
+  }
+    .p4 {
+    font-size: 18px;
+  }
+    .p5 {
+    font-size: 18.5px;
+  }
+    .p6 {
+    font-size: 18.5px;
+  }
+    .p7 {
+    font-size: 19.2px;
+  }
+    .p8 {
+    font-size: 18.5px;
+  }
+    .p9 {
+    font-size: 18.5px;
+  }
+    .p10 {
+    font-size: 18.5px;
+  }
+  .p10-1 {
+    font-size: 18.5px;
+  }
+    .main-half2 {
+      margin-top: 150px;
+      width: 100%;
+      padding-top: 20px;
+    }
+    .main-half2 h2 {
+      text-align: center;
+      position: relative;
+    }
+
+    .main-half2 img {
+      width: 100%;
+      height: 420px;
+    }
+    .request {
+      display: flex;
+      flex-direction: column;
+    }
+    .request-half2 img {
+      width: 413px;
+      height: 300px;
+    }
+    .request-half2 div.text5 {
+      position: absolute;
+      left: 50px;
+      top: 400px;
+      font-size: 12px;
+      color: black;
+    }
+
+    .cartoon1 img {
+      width: 100%;
+      height: 600px;
+    }
+    .cartoon div.text {
+      position: absolute;
+      left: 38px;
+      top: 200px;
+      font-size: 16.2px;
+      color: #fff;
+    }
+    .cartoon p {
+      position: absolute;
+      left: 130px;
+      top: 580px;
+      font-size: 20px;
+      color: #0aff7f;
+    }
+    .cartoon a {
+      color: orange;
+    }
+    .cartoon2 {
+      margin: 0px;
+      height: 150px;
+      text-align: center;
+    }
+    .cartoon2 h2 {
+      margin-right: 10px;
+      font-size: 35px;
+    }
+    .cartoon {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+     .fooder {
+    background-color: #fbdee3;
+  }
+  .fooder h3 {
+    text-align: center;
+    margin: 0px;
+  }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .main-title img {
+      width: 50px;
+      height: 50px;
+      border-style: solid;
+      border-width: 5px;
+      border-color: aqua;
+      border-radius: 80px;
+      float: left;
+    }
+    .main-title {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      padding-top: 20px;
+      padding-bottom: 64px;
+      margin: 0px;
+      background-image: url(https://shuuumatu-worker.jp/mirai/wp-content/uploads/2018/03/sai-kiran-anagani-61187-unsplash-1024x683.jpg);
+      color: skyblue;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .main {
+      display: flex;
+      flex-flow: column;
+    }
+    .main-half {
+      width: 100%;
+      color: rgb(1, 80, 43);
+      padding-top: 0px;
+      margin-top: 0px;
+      text-align: center;
+      font-family: "Kosugi Maru", sans-serif;
+      margin: 10px 0px;
+      font-size: 16.5px;
+      line-height: 15px;
+    }
+    .p1 {
+    font-size: 16.5px;
+  }
+    .p2 {
+    font-size: 17.5px;
+  }
+    .p3 {
+    font-size: 16.5px;
+  }
+    .p4 {
+    font-size: 16px;
+  }
+  .p4-1 {
+    font-size: 16px;
+  }
+    .p5 {
+    font-size: 16.5px;
+  }
+    .p6 {
+    font-size: 16.5px;
+  }
+    .p7 {
+    font-size: 17.2px;
+  }
+    .p8 {
+    font-size: 16.5px;
+  }
+  .p8-1 {
+    font-size: 16px;
+  }
+    .p9 {
+    font-size: 16.5px;
+  }
+    .p10 {
+    font-size: 16.5px;
+  }
+  .p10-1 {
+    font-size: 16.5;
+  }
+    .main-half2 {
+      margin-top: 150px;
+      width: 100%;
+      padding-top: 20px;
+    }
+    .main-half2 h2 {
+      text-align: center;
+      position: relative;
+    }
+
+    .main-half2 img {
+      width: 100%;
+      height: 390px;
+    }
+    .request {
+      display: flex;
+      flex-direction: column;
+    }
+    .request-half2 img {
+      width: 375px;
+      height: 300px;
+    }
+    .request-half2 div.text5 {
+      position: absolute;
+      left: 40px;
+      top: 400px;
+      font-size: 10px;
+      color: black;
+    }
+
+    .cartoon1 img {
+      width: 375px;
+      height: 600px;
+    }
+    .cartoon div.text {
+      position: absolute;
+      left: 29px;
+      top: 200px;
+      font-size: 16.2px;
+      color: #fff;
+    }
+    .cartoon p {
+      position: absolute;
+      left: 100px;
+      top: 580px;
+      font-size: 20px;
+      color: skyblue;
+    }
+    .cartoon2 {
+      margin: 0px;
+      height: 150px;
+      text-align: center;
+    }
+    .cartoon2 h2 {
+      margin-right: 10px;
+      font-size: 35px;
+    }
+    .cartoon {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+     .fooder {
+    background-color: #fbdee3;
+  }
+  .fooder h3 {
+    text-align: center;
+    margin: 0px;
+  }
+  }
